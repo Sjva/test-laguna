@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    <!-- animation.js -->
+    new WOW().init();
+
+
 <!-- magnific-popup -->
     $('.popup-content').magnificPopup({
             type: 'inline'

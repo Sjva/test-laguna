@@ -13,7 +13,7 @@ gulp.task('default', function () {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src(['js/jquery.min.js','js/html5shiv.min.js', 'js/popper.js', 'js/bootstrap.min.js', 'js/jquery.magnific-popup.js', 'js/lib-init.js'])
+    return gulp.src(['js/jquery.min.js','js/html5shiv.min.js', 'js/wow.min.js', 'js/popper.js', 'js/bootstrap.min.js', 'js/jquery.magnific-popup.js', 'js/lib-init.js'])
         .pipe(concat('scripts/all.js'))
         .pipe(uglyfly())
         .pipe(gulp.dest('bundle/'));
