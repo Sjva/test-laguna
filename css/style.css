@@ -476,7 +476,7 @@ nav li a:hover{
     border-bottom: 1px solid #e7e8ea;
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+
 }
 .about {
     background: #fff;
@@ -872,6 +872,10 @@ footer .btn-group a:hover{
     .menu {
         width: 57%;
     }
+    .about {
+        padding: 9rem 1rem 10.7rem 0;
+    }
+
 }
 @media screen and (max-width: 992px) {
     header {
@@ -889,6 +893,9 @@ footer .btn-group a:hover{
     }
     .appstarter{
         text-align: center;
+    }
+    #customers {
+      flex-wrap: wrap;
     }
     .appstarter img {
         margin: 1rem 0 0.5rem 0;
